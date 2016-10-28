@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Verhalen</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img class="home" src="images/home.png" alt="home"></a>
+        <nav class="top">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Verder lezen
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Mijn lijst
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <img title="menu" class="menu" src="images/menu.png" alt="filter en sorteer">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <img class="background_aanmeld_pc" src="images/background.jpg" alt="achtergrond">
+    <img class="background_aanmeld_tabletbreed" src="images/background_tablet_breed.jpg" alt="achtergrond">
+    <img class="background_aanmeld_tabletsmal" src="images/background_tablet_smal.jpg" alt="achtergrond">
+    <img class="background_aanmeld_tabletsmaller" src="images/background_tablet_smaller.jpg" alt="achtergrond">
+    <nav class="secondtop">
+        <ul>
+            <li>
+                <a href="">
+                    Inloggen
+                </a>
+            </li>
+            <li>
+                <a href="aanmelden.html">
+                    Aanmelden
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section class="persoonlijk">
+            <h1>Aanmelden</h1>
+            <form>
+                <fieldset>
+                    <legend>Persoonlijke gegevens</legend>
+                    <label for="voornaam">Voornaam*</label>
+                    <input type="text" placeholder="Sofia" id="voornaam" class="gegevens" required>
+                    <label for="tussenvoegsel">Tussenvoegsel*</label>
+                    <input type="text" placeholder="van" id="tussenvoegsel" class="gegevens1" required>
+                    <label for="achternaam">Achternaam*</label>
+                    <input type="text" placeholder="Oorden" id="achternaam" class="gegevens2" required>
+                </fieldset>
+            </form>
+            <button class="next">Volgende stap</button>
+        </section>
+        <form class="belangrijk">
+            <fieldset>
+                <legend>Account gegevens</legend>
+                <label for="email">Email*</label>
+                <input type="email" name="email" placeholder="verhaal@verhalen.nl" id="email" class="gegevens3 accountgegevens" required>
+                <label for="wachtwoord">Wachtwoord*</label>
+                <input type="password" id="wachtwoord" class="gegevens4 accountgegevens1" required>
+                <p>* Verplichte velden</p>
+                <button class="verander">Maak je account aan!</button>
+            </fieldset>
+        </form>
+        <section class="alles">
+            <h1>Aanmelden</h1>
+            <form>
+                <fieldset>
+                    <legend>Persoonlijke gegevens</legend>
+                    <label for="vrnm">Voornaam*</label>
+                    <input type="text" placeholder="Sofia" id="vrnm" required>
+                    <label for="tussen">Tussenvoegsel*</label>
+                    <input type="text" placeholder="van" id="tussen" required>
+                    <label for="achter">Achternaam*</label>
+                    <input type="text" placeholder="Oorden" id="achter" required>
+                </fieldset>
+            </form>
+            <form>
+                <fieldset>
+                    <legend>Account gegevens</legend>
+                    <label for="mail">Email*</label>
+                    <input type="email" name="email" placeholder="verhaal@verhalen.nl" id="mail" required>
+                    <label for="ww">Wachtwoord*</label>
+                    <input type="password" id="ww" required>
+                    <h2>Maak je account aan!</h2>
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <img class="logo " src="images/transavia.png " alt="transavia ">
+    </footer>
+
+    <script type="text/javascript" src="js/input.js">
+    </script>
+    <script type="text/javascript" src="js/colors.js">
+    </script>
+
+</body>
+
+</html>
